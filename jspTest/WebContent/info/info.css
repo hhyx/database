@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background: url("../image/bg.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  zoom: 1;
+  z-index: -1;
+}
+
+.header {
+  /*border: 2px solid black;*/
+  background-color: #434752;
+  color: white;
+  height: 60px;
+  /*width: 1000px;*/
+  /*width: 100%;*/
+  overflow: hidden;
+}
+
+#title {
+  display: inline-block;
+  font-size: 30pt;
+  height: 60px;
+  width: 300px;
+  position: relative;
+  float: left;
+  font-family: 'STHupo', Times, serif;
+  line-height: 60px;
+  margin-left: 3%;
+}
+
+.main {
+  width: 40%;
+  position: relative;
+  margin: 20% auto 0 auto;
+}
+
+.info {
+  margin: 2%;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}

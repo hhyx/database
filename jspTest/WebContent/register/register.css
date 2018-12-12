@@ -1,0 +1,230 @@
+body {
+    background: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+tr {
+    height: 50px;
+    width:260px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#f td div{  
+    width:200px;
+    position: absolute;
+    color: red;
+    margin-left: -220px;
+    margin-top:30px;
+}
+
+
+input[type=text] {
+    margin-left:-30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    height: 25px;
+    width: 260px;
+    border-style: solid;
+    border-color: rgba(115,115,115,0.3);
+    border-width: 0px 0px 2.5px 0px;
+    border-color: rgba(0,0,0,0.2);
+    background-color: rgba(223, 213, 213, 0);
+    -webkit-box-shadow: 0 0 0px 1000px #DCE7F1 inset; 
+    outline: none;
+}
+
+.bor {
+    border:1.5px solid red;
+}
+
+input[type=password] {
+    margin-left:-30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    height: 25px;
+    width: 260px;
+    border-style: solid;
+    border-color: rgba(115,115,115,0.3);
+    border-width: 0px 0px 2.5px 0px;
+    border-color: rgba(0,0,0,0.2);
+    background-color: rgba(223, 213, 213, 0);
+    -webkit-box-shadow: 0 0 0px 1000px #DCE7F1 inset; 
+    outline: none;
+}
+
+.sma {
+    position:relative;
+    font-size: 15px;
+    width: 90px;
+    height: 30px;
+    border-radius: 2px 2px 2px 2px;
+    outline: none;
+    margin-left:40px;
+    top: 0px;
+}
+
+.sm {
+    position:relative;
+    font-size: 15px;
+    width: 90px;
+    height: 30px;
+    border-radius: 2px 2px 2px 2px;
+    outline: none;
+    margin-left:40px;
+    top: -85px;
+}
+
+.rta {
+    position: relative;
+    font-size: 15px;
+    width: 90px;
+    height: 30px;
+    border-radius: 2px 2px 2px 2px;
+    outline: none;
+    margin-left:30px;
+    top: 0px;
+}
+
+.rt {
+    position: relative;
+    font-size: 15px;
+    width: 90px;
+    height: 30px;
+    border-radius: 2px 2px 2px 2px;
+    outline: none;
+    margin-left:30px;
+    top: -85px;
+}
+
+.aa {
+    position: relative;
+    top: -85px;
+
+}
+
+.aaa {
+    position: relative;
+    top: 0px;
+
+}
+
+
+.bar {
+    padding-left: 35px;
+    font-size: 25px;
+    font-family: 'Segoe MDL2 Assets', Times, serif;
+}
+
+.ra1, .ra2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:17px;
+}
+
+.ra1 {
+    position: absolute;
+    margin-left: 100px;
+    margin-top:15px;
+}
+
+.tp {
+    position: absolute;
+    margin-top: 10px;
+}
+
+.ra2 {
+    position: absolute;
+    margin-left:240px;
+    margin-top:15px;
+}
+
+.ra1a {
+    position: absolute;
+    margin-left: 100px;
+    margin-top:-75px;
+}
+
+.tpa {
+    position: absolute;
+    margin-top: -80px;
+}
+
+.ra2a {
+    position: absolute;
+    margin-left:240px;
+    margin-top:-75px;
+}
+
+
+
+
+.navigation_bar {
+    text-align: center;
+    background-color: #434752;
+    height: 85px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+}
+
+.s1, .s2, .s4 {
+    color: white;
+    position: fixed;
+    
+}
+.s1 {
+    font-size: 45px;
+    font-family: 'STHupo';
+    margin-top: 20px;
+    margin-left: -350px;
+}
+
+.s2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 28px;
+    margin-left: -30px;
+}
+
+.s3 {
+    display: inline-block;
+    font-family:"Segoe MDL2 Assets";
+    font-size: 30px; 
+    margin-top: 29px;
+    margin-left: 400px;
+}
+.s4 {
+    font-size: 18px;
+    font-family: 'Microsoft YaHei', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 31px;
+    margin-left: 20px;
+}
+
+.maindiv {
+    margin: 100px auto auto auto;
+    border-width: 1.5px 1.5px 1.5px 1.5px;
+    border-style:solid;
+    border-color: #7F8595;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    width: 650px;
+}
+
+.til {
+    font-family: 'STHupo', Times, serif;
+    color: white;
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+    -webkit-text-stroke: 2px black; 
+}
+
+
+
+

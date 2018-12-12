@@ -1,0 +1,137 @@
+<!-- <%@ page language="java" contentType="text/html; charset=UTF-8"
+  pageEncoding="UTF-8"%>
+<%@ page import="entity.*"%>
+<%@ page import="java.util.ArrayList"%>
+<%@ page import="dao.*"%> -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="job.css">
+<script src="../jQuery/jquery-3.2.1.min.js" type='text/javascript'></script>
+<script language="javascript" src="job.js"></script>
+<title>Insert title here</title>
+
+
+</head>
+<!-- <%User u = (User)session.getAttribute("user"); %> -->
+<body>
+  
+  <div class="header"> 
+    <!-- <%User u = (User)session.getAttribute("user"); %> -->
+    <div id="title">面试Interview</div>
+    <div class="User">
+      <p id="username">
+        <!-- <%out.print(u.getUsername()); %> -->
+        hechx6
+      </p>
+      <div id="LogOut">
+        <!-- <a class="SpecialCharacter" href="../login/login.jsp" >&#xE7E8 注销</a> -->
+        <div class="SpecialCharacter">&#xE7E8 注销</div>
+      </div>
+    </div>
+    <div id="head"></div>
+  </div>
+
+  <div class="MainContent">
+    <div class="headerContent">
+      <div class="Job btn">工作</div>
+      <div class="back SpecialCharacter"><a href="/jspTest/EmployeeShowServlet" >&#xE0A6 返回</a></div>
+    </div>
+
+    <div class="JobList">
+      <!-- <%ArrayList<Job> arr = (ArrayList<Job>)session.getAttribute("job"); %> -->
+      <!-- <% for (int i = 0;i < arr.size();i ++) {%> -->
+        <div class="JobBlock">
+          <div class="headerBlock"><%out.print(arr.get(i).getName())); %></div>
+
+          <div class="info">
+            <div class="LeftBlock">
+              <div class="miniblock">工资</div>
+              <div class="miniblock">描述</div>
+            </div>
+            <div class="RightBlock">
+              <div class="Salary miniblock"><%out.print(arr.get(i).getSalary()); %></div>
+              <div class="Detail miniblock"><%out.print(arr.get(i).getDesciption()); %></div>
+            </div>
+          </div>
+
+          <div class="applybtn">
+            <button class="button"><a class="green" href="/jspTest/ApplyServlet?jid=<%= arr.get(i).getJid() %>">申请</a></button>
+          </div>
+        </div>
+
+
+        <div class="JobBlock">
+          <div class="headerBlock"><%out.print(arr.get(i).getName())); %></div>
+
+          <div class="info">
+            <div class="LeftBlock">
+              <div class="miniblock">工资</div>
+              <div class="miniblock">描述</div>
+            </div>
+            <div class="RightBlock">
+              <div class="Salary miniblock"><%out.print(arr.get(i).getSalary()); %></div>
+              <div class="Detail miniblock"><%out.print(arr.get(i).getDesciption()); %></div>
+            </div>
+          </div>
+
+          <div class="applybtn">
+            <button class="button"><a class="green" href="/jspTest/ApplyServlet?jid=<%= arr.get(i).getJid() %>">申请</a></button>
+          </div>
+        </div>
+        <div class="JobBlock">
+          <div class="headerBlock"><%out.print(arr.get(i).getName())); %></div>
+
+          <div class="info">
+            <div class="LeftBlock">
+              <div class="miniblock">工资</div>
+              <div class="miniblock">描述</div>
+            </div>
+            <div class="RightBlock">
+              <div class="Salary miniblock"><%out.print(arr.get(i).getSalary()); %></div>
+              <div class="Detail miniblock"><%out.print(arr.get(i).getDesciption()); %></div>
+            </div>
+          </div>
+
+          <div class="applybtn">
+            <button class="button"><a class="green" href="/jspTest/ApplyServlet?jid=<%= arr.get(i).getJid() %>">申请</a></button>
+          </div>
+        </div>
+        <div class="JobBlock">
+          <div class="headerBlock"><%out.print(arr.get(i).getName())); %></div>
+
+          <div class="info">
+            <div class="LeftBlock">
+              <div class="miniblock">工资</div>
+              <div class="miniblock">描述</div>
+            </div>
+            <div class="RightBlock">
+              <div class="Salary miniblock"><%out.print(arr.get(i).getSalary()); %></div>
+              <div class="Detail miniblock"><%out.print(arr.get(i).getDesciption()); %></div>
+            </div>
+          </div>
+
+          <div class="applybtn">
+            <button class="button"><a class="green" href="/jspTest/ApplyServlet?jid=<%= arr.get(i).getJid() %>">申请</a></button>
+          </div>
+        </div>
+
+
+
+      <!-- <p>
+        <%out.print("职位:" + arr.get(i).getName() + "工资:" + arr.get(i).getSalary()); %>
+      </p>
+      
+        <%out.print("描述:" + arr.get(i).getDesciption()); %>
+        <a href="/jspTest/ApplyServlet?jid=<%= arr.get(i).getJid() %>">申请</a> -->
+
+      <!-- <% }%> -->
+    </div>
+  </div>
+  
+  
+  
+</body>
+</html>
